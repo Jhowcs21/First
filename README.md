@@ -1,6 +1,4 @@
-# First
-Primeiro programa
-
+#First
 
 import java.util.Scanner;
 
@@ -9,7 +7,11 @@ public class Menu {
 	
 	public static void main(String[] args) {
 		
-	
+		int resposta = 1;
+		
+		while (resposta == 1){
+			
+			int fim;
 		
 		
 						//MENU
@@ -50,7 +52,8 @@ public class Menu {
 		  }else {System.out.println("Opção invalida!");}
 		
 		}
-					
+	
+	}
 	
 	
 					//CADASTRO
@@ -92,6 +95,8 @@ public class Menu {
 		 cont = in.nextInt();
        
      }while(cont == 1);
+		System.out.println("Finalizando Cadastro");
+		System.out.println("Voltando ao Menu");
 		System.out.println();
 		
 	}
