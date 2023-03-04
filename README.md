@@ -1,8 +1,6 @@
 import java.util.Scanner;
 
 
-
-
 public class Menu {
 	
 	public static void main(String[] args) {
@@ -48,7 +46,7 @@ public class Menu {
 			  
 		  }
 		  else if(valor1.equals(listar)) {
-			  listar ();
+			 resposta = listar ();
 		  }else if (valor1.equals(sair)) {
 			  resposta = sair ();
 			  
@@ -107,8 +105,9 @@ public class Menu {
 	
 	
 					//LISTA
-	public static void listar () {
-		
+	public static int listar () {
+		System.out.println("----------Lista----------");
+		return 0;
 		
 	}
 	
