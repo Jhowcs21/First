@@ -1,11 +1,13 @@
-#First
-
 import java.util.Scanner;
+
+
 
 
 public class Menu {
 	
 	public static void main(String[] args) {
+		
+		
 		
 		int resposta = 1;
 		
@@ -48,7 +50,8 @@ public class Menu {
 		  else if(valor1.equals(listar)) {
 			  listar ();
 		  }else if (valor1.equals(sair)) {
-			  sair ();
+			  resposta = sair ();
+			  
 		  }else {System.out.println("Opção invalida!");}
 		
 		}
@@ -105,13 +108,19 @@ public class Menu {
 	
 					//LISTA
 	public static void listar () {
+		
+		
 	}
 	
 	
 	
 	
 					//SAIR
-	public static void sair () {
+	public static int sair () {
+		System.out.println("Saindo......");
+		System.out.println("Programa finalizado");
+		return 0;
+		
 	}
 	
 	}
